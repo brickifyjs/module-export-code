@@ -1,0 +1,40 @@
+{
+  "name": "@brickify/m-string",
+  "version": "1.0.0",
+  "description": "Strings manipulation API",
+  "keywords": [
+    "brickifyjs",
+    "module",
+    "add",
+    "remove",
+    "extract",
+    "replace",
+    "string",
+    "content",
+    "code",
+    "manipulation",
+    "chain"
+  ],
+  "author": "Nicolas RAIBAUD",
+  "license": "MIT",
+  "repository": "brickifyjs/module-string",
+  "scripts": {
+    "generate-docs": "cp README.md docs/index.md",
+    "test": "ospec",
+    "lint": "eslint ./lib/index.js",
+    "coverage": "istanbul cover --print both ospec",
+    "report-coverage": "codecovs"
+  },
+  "main": "lib/index.js",
+  "files": [
+    "lib/index.js"
+  ],
+  "pre-commit": [
+    "generate-docs"
+  ],
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "istanbul": "^0.4.5",
+    "ospec": "^1.4.0"
+  }
+}
