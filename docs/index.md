@@ -1,4 +1,4 @@
-## Module Hook
+## Module String
 
 Strings manipulation API
 
